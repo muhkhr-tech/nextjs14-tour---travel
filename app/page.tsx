@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className="">
       <BannerSection/>
-      <div className="w-4/5 mx-auto" id="paket">
+      <div className="px-3 sm:px-0 sm:w-4/5 mx-auto" id="paket">
       <Paket4H3MSection/>
       </div>
     </div>
