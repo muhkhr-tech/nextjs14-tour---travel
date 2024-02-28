@@ -1,7 +1,9 @@
 import Image from "next/image";
-import { FaRegCheckCircle, FaRegDotCircle } from "react-icons/fa";
+import Link from "next/link";
+import { FaRegCheckCircle } from "react-icons/fa";
+import { HiArrowLongLeft } from "react-icons/hi2";
 
-export default function Paket4H3MSection({slug}: any) {
+export default function Paket4H3MSection({ slug }: any) {
   return (
     <div className="">
       <div className="relative bg-black sm:static">
@@ -11,7 +13,7 @@ export default function Paket4H3MSection({slug}: any) {
           height={900}
           alt="Paket 4H3M"
           className="w-screen opacity-70 sm:opacity-100" />
-          <div className="block sm:hidden absolute left-0 right-0 top-0 bottom-0 m-auto mt-32 sm:mt-64 text-white text-md sm:text-2xl text-bold">
+        <div className="block sm:hidden absolute left-0 right-0 top-0 bottom-0 m-auto mt-32 sm:mt-64 text-white text-md sm:text-2xl text-bold">
           <h1 className="text-center mb-2 uppercase">{slug}</h1>
           <span className="block text-center sm:hidden text-sm text-slate-200">3.125.000/orang</span>
         </div>
@@ -22,6 +24,7 @@ export default function Paket4H3MSection({slug}: any) {
 
         <div>
           <span className="hidden sm:block text-sm text-slate-600">3.125.000/orang</span>
+          <Link className="flex items-center gap-1 text-sm sm:hidden px-4" href="/"><HiArrowLongLeft/> Kembali</Link>
           <div className="grid grid-cols-1 sm:grid-cols-2 sm:gap-10">
 
             <div className="mt-2 rounded-lg shadow-lg p-4">

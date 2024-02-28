@@ -1,5 +1,7 @@
 import Image from "next/image";
+import Link from "next/link";
 import { FaRegCheckCircle, FaRegDotCircle } from "react-icons/fa";
+import { HiArrowLongLeft } from "react-icons/hi2";
 
 export default function Paket3H2MSection({ slug }: any) {
   return (
@@ -22,6 +24,7 @@ export default function Paket3H2MSection({ slug }: any) {
 
         <div>
           <span className="hidden sm:block text-sm text-slate-600">1.600.000/orang</span>
+          <Link className="flex items-center gap-1 text-sm sm:hidden px-4" href="/"><HiArrowLongLeft/> Kembali</Link>
           <div className="grid grid-cols-1 sm:grid-cols-2 sm:gap-10">
 
             <div className="mt-2 rounded-lg shadow-lg p-4">
