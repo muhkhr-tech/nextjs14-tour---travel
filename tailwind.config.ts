@@ -29,7 +29,7 @@ const config: Config = {
     require('tailwind-typewriter')({
       wordsets: {
           welcome: {
-              words: ['Paket 4H3M', 'Paket 3H2M'],
+              words: ['Paket 3H2M', 'Paket 4H3M'],
               delay: 0.1
           }
       }

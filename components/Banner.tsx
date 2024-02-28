@@ -6,14 +6,12 @@ export default function BannerSection() {
       <Image
         src="/reisetopia-XEr5JtR6gnw-unsplash.jpg"
         width={900}
-        height={500}
+        height={900}
         alt="banner 1"
-        // layout="fill"
-        // objectFit="cover"
         className="w-full opacity-70" />
-      <div className="absolute left-0 right-0 top-0 bottom-0 m-auto mt-20 sm:mt-64 text-white text-md sm:text-2xl text-bold">
-        <h1 className="text-center mb-2">selamat datang di Tour & Travel</h1>
-        <div className="text-center text-lg sm:text-5xl type-welcome"></div>
+      <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-md sm:text-2xl text-center text-bold">
+        <h1 className="mb-2">selamat datang di Tour & Travel</h1>
+        <div className="text-lg sm:text-5xl type-welcome"></div>
       </div>
     </div>
   )
